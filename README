@@ -1,0 +1,10 @@
+The simulator assumes that the Addtion and Multiplication untis are pipelined i.e, 2 instructions can be executed in these units in a pipelined fashion
+(For example, a MUL instruction starts executing in cycle 5 and will be finished in cycle 15. The another MUL instruction can start its execution in cycle 6 and finish in cycle 16).
+
+Required - Python (3.6), numpy
+
+Program File - 15CS30006_P.py - It contains the complete code (all the data structures, input parsing, execution and ouput) with appropriate comments.
+
+Input - A file names 'input.txt' should be present in the same folder as the code which contains the input in the format specified in the question.
+Output -  The program first prints cycle-by-cycle details of the execution. It mentions the Issue Steps, Dispatch Steps and Broadcast Steps.
+          The Program then prints the output in the format specified in the question.
